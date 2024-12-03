@@ -1,0 +1,21 @@
+:root {
+    /***** color *****/
+
+    /***** font-size *****/
+    --fs-36: 36px;
+    --fs-16: 16px;
+        /***** font-family  *****/
+        --font-poppins: "Poppins", sans-serif;
+}
+
+.font-size-16 {
+    font-size: var(--fs-16)
+}
+
+.font-size-36 {
+    font-size: var(--fs-36);
+}
+
+.font-poppins {
+    font-family: var(--font-poppins);
+}
