@@ -1,11 +1,28 @@
 :root {
     /***** color *****/
-
+    --btn-2: #2C49FE1A;
+    --btn-3:#2C49FE;
+    --header-bg:#FFFFFF;
+    --comment-box:#F1F2F5;
+    --input-border-color:#9ca1be;
+    --bg-black:#000000;
+    --footer-color:#18205C;
     /***** font-size *****/
     --fs-36: 36px;
     --fs-16: 16px;
-        /***** font-family  *****/
-        --font-poppins: "Poppins", sans-serif;
+    --fs-48: 48px;
+    --fs-20: 20px;
+    --fs-14: 14px;
+    --fs-12: 12px;
+
+    /***** font-family  *****/
+    --font-poppins: "Poppins", sans-serif;
+
+    /* line height  */
+    --lh-48:48px;
+    --lh-24:24px;
+    --lh-72:72px;
+    --lh-30:30px;
 }
 
 .font-size-16 {
@@ -16,6 +33,32 @@
     font-size: var(--fs-36);
 }
 
+.font-size-48 {
+    font-size: var(--fs-48);
+}
+.font-size-20 {
+    font-size: var(--fs-20);
+}
+.font-size-14 {
+    font-size: var(--fs-14);
+}
+.font-size-12 {
+    font-size: var(--fs-12);
+}
+
 .font-poppins {
     font-family: var(--font-poppins);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+.lh-48 {
+    line-height: var(--lh-48);
+}
+.lh-24 {
+    line-height: var(--lh-24);
+}
+.lh-72 {
+    line-height: var(--lh-72);
 }
