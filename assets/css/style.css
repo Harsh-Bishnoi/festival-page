@@ -5,10 +5,12 @@
 .navbar-collapse {
     flex-grow: 0 !important;
 }
-header{
+
+header {
     top: 0;
     background-color: var(--header-bg);
 }
+
 .btn {
     padding: 11px 28px !important;
     border-radius: 23px !important;
@@ -21,7 +23,7 @@ header{
     min-height: 70vh;
 }
 
-.home {
+.opacity-60 {
     opacity: 60%;
 }
 
@@ -175,6 +177,239 @@ footer ul li {
     background-color: var(--footer-color);
 }
 
+/********** feed page **********/
+
+/***** section 1 *****/
+.box-2 {
+    max-width: 171px;
+    height: 138px;
+    width: 100%;
+    border-radius: 20px;
+    opacity: 10%;
+    background-color: var(--btn-3);
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/***** section 2 *****/
+.max-width-561 {
+    max-width: 561px;
+}
+
+.max-width-553 {
+    max-width: 553px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.parent-div {
+    max-width: 322px;
+    width: 100%;
+    height: 138px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 35px 0px #0000001A;
+}
+
+.quis {
+    color: var(--parent-box-grey-color);
+    max-width: 180px;
+}
+
+.max-w-114 {
+    max-width: 114px;
+}
+
+.h-112 {
+    height: 112px;
+}
+
+.pl-13 {
+    padding-left: 13px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    right: 3%;
+    bottom: 5%;
+}
+
+.container-shadow {
+    border: 1px solid;
+    border-color: var(--feed-border-color);
+    border-radius: 30px;
+    box-shadow: 0px 8px 35px 0px #0000001A;
+}
+
+.container-border {
+    border: 1px solid;
+    border-color: var(--feed-border-color);
+    border-radius: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+/***** section 3 *****/
+
+
+/************************ event page  **********************/
+
+.bg-img {
+    background-image: url(../images/event-page-header-img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt-131 {
+    padding-top: 131px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+/******************* section 1 ***********************/
+
+.event-box {
+    border: 1px solid #00000033;
+    padding: 35px 37px 30px 43px;
+    border-radius: 20px;
+    transition: all 300ms linear;
+}
+
+.border-all {
+    border-radius: 20px;
+    transition: all 300ms linear;
+}
+
+.event-box:hover {
+    box-shadow: 0px 8px 35px 0px #0000001A;
+    border: 1px solid white;
+}
+
+.event-box:hover .border-all {
+    border-radius: 0px;
+}
+
+.max-width-344 {
+    max-width: 344px;
+}
+
+.pl-43 {
+    padding-left: 43px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-21 {
+    padding-top: 21px;
+}
+
+.pt-17 {
+    padding-top: 17px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.ml-43 {
+    margin-left: 43px;
+}
+
+.go-check-btn {
+    background-color: var(--btn-3);
+    color: white;
+    border: none;
+    border-radius: 23px;
+    width: 134px;
+    height: 46px;
+}
+
+.row-gap-25 {
+    row-gap: 25px;
+}
+
+.pb-155 {
+    padding-bottom: 155px;
+}
+
+.pb-33 {
+    padding-bottom: 33px;
+}
+
+/*************************** homepage ******************************/
+
+.bg-img-1 {
+    background-image: url(../images/homepage-header-img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-width-1044 {
+    max-width: 1044px;
+}
+
+.max-width-915 {
+    max-width: 915px;
+}
+
+.get-started-btn {
+    width: 172px;
+    height: 52px;
+    border-radius: 28px;
+    border: none;
+    color: white;
+    background-color: var(--btn-3);
+}
+
+.mt-33{
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:768px) {
     .item-1 {
         grid-row: 1/2;
@@ -237,9 +472,7 @@ footer ul li {
         grid-row: 5/6;
         grid-column: 1/2;
     }
-}
 
-@media (max-width:576px) {
     .font-size-36 {
         font-size: 23px;
     }
@@ -247,7 +480,6 @@ footer ul li {
     .header-img {
         max-width: 70px;
     }
-
 }
 
 @media (max-width:1200px) {
@@ -260,4 +492,11 @@ footer ul li {
         margin-left: 0px;
     }
 
+}
+
+@media (max-width:992px) {
+    .sed {
+        font-size: var(--fs-48);
+        line-height: unset;
+    }
 }

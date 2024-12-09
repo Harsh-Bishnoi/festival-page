@@ -1,12 +1,14 @@
 :root {
     /***** color *****/
     --btn-2: #2C49FE1A;
-    --btn-3:#2C49FE;
-    --header-bg:#FFFFFF;
-    --comment-box:#F1F2F5;
-    --input-border-color:#9ca1be;
-    --bg-black:#000000;
-    --footer-color:#18205C;
+    --btn-3: #2C49FE;
+    --header-bg: #FFFFFF;
+    --comment-box: #F1F2F5;
+    --input-border-color: #9ca1be;
+    --bg-black: #000000;
+    --footer-color: #18205C;
+    --feed-border-color: #00000033;
+    --parent-box-grey-color: #666666;
     /***** font-size *****/
     --fs-36: 36px;
     --fs-16: 16px;
@@ -14,15 +16,22 @@
     --fs-20: 20px;
     --fs-14: 14px;
     --fs-12: 12px;
+    --fs-24: 24px;
+    --fs-64: 64px;
 
     /***** font-family  *****/
     --font-poppins: "Poppins", sans-serif;
 
     /* line height  */
-    --lh-48:48px;
-    --lh-24:24px;
-    --lh-72:72px;
-    --lh-30:30px;
+    --lh-48: 48px;
+    --lh-24: 24px;
+    --lh-72: 72px;
+    --lh-30: 30px;
+    --lh-36: 36px;
+    --lh-54: 54px;
+    --lh-18: 18px;
+    --lh-96: 96px;
+    --lh-25: 25px;
 }
 
 .font-size-16 {
@@ -36,14 +45,25 @@
 .font-size-48 {
     font-size: var(--fs-48);
 }
+
 .font-size-20 {
     font-size: var(--fs-20);
 }
+
 .font-size-14 {
     font-size: var(--fs-14);
 }
+
 .font-size-12 {
     font-size: var(--fs-12);
+}
+
+.font-size-24 {
+    font-size: var(--fs-24);
+}
+
+.font-size-64 {
+    font-size: var(--fs-64);
 }
 
 .font-poppins {
@@ -53,12 +73,34 @@
 .lh-30 {
     line-height: var(--lh-30);
 }
+
 .lh-48 {
     line-height: var(--lh-48);
 }
+
 .lh-24 {
     line-height: var(--lh-24);
 }
+
 .lh-72 {
     line-height: var(--lh-72);
+}
+
+.lh-36 {
+    line-height: var(--lh-36);
+}
+
+.lh-54 {
+    line-height: var(--lh-54);
+}
+
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
+.lh-96 {
+    line-height: var(--lh-96);
+}
+.lh-25 {
+    line-height: var(--lh-25);
 }
